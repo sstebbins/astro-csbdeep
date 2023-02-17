@@ -1,7 +1,7 @@
-tensorflow-gpu==2.7.0
-keras==2.7.0
+tensorflow==2.11.0
+keras==2.11.0
 jupyter==1.0.0
-tensorboard==2.8.0
+tensorboard==2.11.0
 astropy==5.0.1
 h5py==3.6.0
 tifffile==2022.3.25
