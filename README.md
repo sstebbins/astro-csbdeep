@@ -8,23 +8,20 @@ Additionally some helpful changes have been added to easily process Astrophotogr
 
 Please see the documentation at http://csbdeep.bioimagecomputing.com/doc/.
 
+This fork has been modified to work with Mac OS. 
+
 ## Environment Setup
 
 You will need a few things to get started:
-
-1. An NVIDIA GPU and relevant CUDA libraries installed - great video guide here [Install Tensorflow GPU and PyTorch in Windows 10 - Generalized method](https://www.youtube.com/watch?v=86Mq-h8tazc)
-2. Python 3 installed
-3. Create and venv environment preferabley named `.venv` by running `python -m venv .venv` and activating it `.venv\Scripts\activate`
+1. Python 3 installed
+2. If you have a mac, you should install tensorflow and tensorflow-metal EXACTLY as instructed [here](https://developer.apple.com/metal/tensorflow-plugin/). **Note the version numbers of tensorflow, tensorflow-macos, tensorflow-metal, and macOS required in the table below "Releases"!** 
+3. Activate the conda or venv virtual environment created in (2).
 3. Install the pip3 requirement found in the `requirements.txt` file by running `pip3 install -r requirements.txt`
 4. (Optional) Install Visual Studio Code
-
-Key Dependencies are:
-
-* python:3.7-3.9
-* cuDNN:8.1
-* CUDA:11.2
-* jupyter:1.0.0
-* tensorflow-gpu:2.7.0
+5. Can run the GUI client by the following:
+```
+(venv-metal) your_computer:astro-csbdeep your_username$ python astrodenoisepygui.py &
+```
 
 Please check the `requirements.txt` file for versions of the above and other packages used to test the example Jupyter Notebook.
 
