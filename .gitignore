@@ -19,7 +19,5 @@ htmlcov/
 *.npz
 *.tif*
 *.hdf5
-*.h5
 *.zip
 *.tfevents.*
-config.json
