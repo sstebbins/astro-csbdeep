@@ -22,8 +22,7 @@ You will need a few things to get started:
 ```
 (venv-metal) your_computer:astro-csbdeep your_username$ python astrodenoisepygui.py &
 ```
-
-Please check the `requirements.txt` file for versions of the above and other packages used to test the example Jupyter Notebook.
+The above is **ALL YOU NEED** to run astrodenoisepy.  To test / play with jupyter notebooks, continue reading.
 
 ## Example Notebook For Astro
 
