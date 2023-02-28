@@ -13,7 +13,7 @@ This fork has been modified to work with Mac OS.
 ## Environment Setup
 
 You will need a few things to get started:
-1. Python 3 installed
+1. The correct version of python 3 installed (see #2). This is oftentimes not the most up-to-date version of Python 3 (as of this writing, tensorflow-macos only supports python up to 3.10).
 2. If you have a mac, you should install tensorflow and tensorflow-metal EXACTLY as instructed [here](https://developer.apple.com/metal/tensorflow-plugin/). **Note the version numbers of tensorflow, tensorflow-macos, tensorflow-metal, and macOS required in the table below "Releases"!** 
 3. Activate the conda or venv virtual environment created in (2).
 3. Install the pip3 requirement found in the `requirements.txt` file by running `pip3 install -r requirements.txt`
