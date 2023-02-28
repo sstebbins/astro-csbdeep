@@ -20,7 +20,7 @@ You will need a few things to get started:
 4. (Optional) Install Visual Studio Code
 5. Can run the GUI client by the following:
 ```
-(venv-metal) your_computer:astro-csbdeep your_username$ python astrodenoisepygui.py &
+python astrodenoisepygui.py &
 ```
 The above is **ALL YOU NEED** to run astrodenoisepy.  To test / play with jupyter notebooks, continue reading.
 
